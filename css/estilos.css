@@ -2,7 +2,7 @@ body{
     background-color: #F5F5F5;
 }
 h1{
-    background-color: #00923F;
+    background-color: #009440;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     text-align: center;
 }
@@ -15,6 +15,15 @@ p{
 
 }
 img{
-    display: block;
+    margin-top: auto;
+    margin-left: 40%;
+    width:250px;
+    height:200px;
 
+}
+h4{
+    text-align: center;
+    text-decoration: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #00944086;
 }
