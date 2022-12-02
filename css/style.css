@@ -3,9 +3,11 @@
     height:380px;
 }
 body{
-    background-color: ivory;
+    background-color: rgb(192, 223, 171);
     text-align: center;
     align-items: center;
+    width: 80%;
+    margin-left: 10%;
 }
 nav{
     /* background-color: #7fe7e2; */
@@ -14,25 +16,23 @@ nav{
     border-radius:10px 10px 0px 0px;
     /* border: 1px navy solid; */
     display:flex;
-    /*Parámetros de borde: grosor, color y estilo*/
     }
 h1{
-    background-color: #e2b3a6;
+    background-color: #558a51;
     text-align: center;
 }
 .boton{
-background-color: #e2b3a6;
+background-color: #50944dd0;
 display: block;
 margin: 5px;
 padding:8px;
-color: black;
+color: rgb(245, 239, 239);
 width: 150px;
-border: 2px black solid;
-border-radius: 7px;
-text-decoration: none;
+border: 2px rgb(235, 238, 234) solid;
+text-decoration: solid;
 }
 section{
-    background-color: ivory;
+    background-color: rgba(226, 255, 212, 0.726);
     text-align: center;
     padding: 1%;
     
