@@ -4,41 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulario Hoja de vida</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h1>Formulario de inscripción campus UDENAR</h1>
-    <hr>
-    <p>Estudiante, ingresa tus datos personales y llena el formulario. Nosotros estaremos en contacto para actualizarte en novedades y actividades de la Universidad de Nariño.</p>
-    <h2>Datos personales</h2>
-    <label>Código estudiantil:</label>
-    <input type="text" name="txtCod" id="txtCod">
-    <label>Nombres:</label>
-    <input type="text" name="txtName" id="txtName">
-    <label>Apellidos:</label>
-    <input type="text" name="txtAp" id="txtAp ">
-    <label>Identificación:</label>
-    <input type="number" name="numId" id="numId">
-    <label>Edad:</label>
-    <input type="number" name="numAge" id="numAge">
-    <h2>Datos de contacto</h2>
-    <label>Celular:</label>
-    <input type="number" name="numCel" id="numCel">
-    <label>Correo electrónico:</label>
-    <input type="text" name="txtEmail" id="txtEmail">
-    <label>Dirección:</label>
-    <input type="text" name="txtDir" id="txtDir">
-    <h2>Datos académicos</h2>
-    <label>Facultad a la que pertenece:</label>
-    <label>Semestre:</label>
-    <h2>Preferencias personales</h2>
-    <label>Actividades en las que desea participar:</label>
-    <input type="text" name="txtPre" id="txtPre">    
+    
+    <form class="formulario">
+        <h1>Formulario de inscripción Estudiante UDENAR</h1>
+        <hr>
+        <p>Estudiante, ingresa tus datos personales y llena el formulario. <br>
+            Nosotros estaremos en contacto para actualizarte en novedades y actividades de la Universidad de Nariño.</p>
+        <h2>Datos personales</h2>
+        <label>Código estudiantil:</label>
+        <input type="text" name="txtCod" id="txtCod" required>
+        <br>
+        <label>Nombre:</label>
+        <input type="text" name="txtName" id="txtName" placeholder="Nombre">
+        <br>
+        <label>Identificación:</label>
+        <input type="number" name="numId" id="numId" required placeholder="ID">
+        <br>
+        <label>Edad:</label>
+        <input type="number" name="numAge" id="numAge">
+        <br>
+        <h2>Datos de contacto</h2>
+        <label>Celular:</label>
+        <input type="number" name="numCel" id="numCel" required>
+        <br>
+        <label>Correo electrónico:</label>
+        <input type="email" name="txtEmail" id="txtEmail" required>
+        <br>
+        <label>Dirección:</label>
+        <input type="text" name="txtDir" id="txtDir">
+        <br>
+        <h2>Datos académicos</h2>
+        <label>Facultad a la que pertenece:</label>
+        <select name="listFac" id="listFac">
+            <option value="1">Facultad de ingenieria</option>
+            <option value="2">Facultad de ciencias economicas y administrativas</option>
+            <option value="3">Facultad de idiomas</option>
+            <option value="4">Facultad de artes</option>
+        </select>
+        <br>
+        <label>Semestre:</label>
+        <select name="listSem" id="listSem">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <h2>Preferencias personales</h2>
+        <label>Actividades en las que desea participar:</label>
+        <br>
+        <input type="radio" name="txtPre" id="op1" value="Culturales" checked>Culturales
+        <input type="radio" name="txtPre" id="op2" value="Deportivas">Deportivas
+        <input type="radio" name="txtPre" id="op3" value="MedioAm" checked>Medio ambientales
+        <input type="radio" name="txtPre" id="op4" value="">Deportivas
+        <br>   
+        <input style="text-align: center; background-color:rgba(121, 224, 190, 0.81)" class="registro"type="submit" value="Guardar">
+        <input style="text-align: center;" class="registro"type="reset" value="Limpiar">
+
+    </form>
+
     <hr>
     <h2>¡Felices 118 años! Universidad de Nariño</h2>
     <img src="imagenes/logo_color.png" alt="Imagen Udenar">
-
-    <h4>By: Verónica Vera - Yessenith Yela</h4>
+    
+    <footer>
+        &copy; By: Verónica Vera - Yessenith Yela
+    </footer>
 </body>
 </html>

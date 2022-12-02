@@ -8,12 +8,27 @@ h1{
 }
 h2{
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: #00944086;
+    margin: 20px;
 }
 
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    text-align: center;
 }
+
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+select{
+    margin: 6px;
+}
+
+input{
+    margin: 6px;
+}
+
 img{
     margin-top: auto;
     margin-left: 40%;
@@ -21,9 +36,25 @@ img{
     height:200px;
 
 }
-h4{
-    text-align: center;
-    text-decoration: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #00944086;
+form.formulario{
+    background-color: rgb(229, 213, 192);
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    border: 4px black double;
+    border-radius: 10px;
+}
+input.registro:hover{
+    border: 2px rgb(72, 167, 226) solid;
+    background-color: rgba(199, 61, 61, 0.823);
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+input.registro{
+    border: 2px rgb(88, 189, 252) solid;
+    background-color: rgba(231, 92, 92, 0.823);
+    color: rgb(8, 8, 8);
+    padding: 10px;
+    font-size: 15px;
 }
